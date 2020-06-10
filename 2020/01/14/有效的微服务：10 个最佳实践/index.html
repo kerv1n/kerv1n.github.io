@@ -46,7 +46,7 @@
     
     <title>
         
-            归档: 2019 | 
+            有效的微服务：10 个最佳实践 | 
         
         Kerv1n
     </title>
@@ -218,7 +218,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="Kerv1n">
-    <meta name="msapplication-starturl" content="http://yoursite.com/archives/2019/">
+    <meta name="msapplication-starturl" content="http://yoursite.com/2020/01/14/%E6%9C%89%E6%95%88%E7%9A%84%E5%BE%AE%E6%9C%8D%E5%8A%A1%EF%BC%9A10%20%E4%B8%AA%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/">
     <meta name="msapplication-navbutton-color" content="#0097A7">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Kerv1n">
@@ -233,13 +233,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="http://yoursite.com/archives/2019/">
+    <meta property="og:url" content="http://yoursite.com/2020/01/14/%E6%9C%89%E6%95%88%E7%9A%84%E5%BE%AE%E6%9C%8D%E5%8A%A1%EF%BC%9A10%20%E4%B8%AA%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="归档: 2019 | Kerv1n">
+    <meta property="og:title" content="有效的微服务：10 个最佳实践 | Kerv1n">
     <meta property="og:image" content="/img/favicon.png">
     <meta property="og:description" content="">
     
 
+    
+        <meta property="article:published_time" content="Tue Jan 14 2020 17:20:47 GMT+0800">
+        <meta property="article:modified_time" content="Tue Jan 14 2020 17:22:36 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -247,13 +250,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/archives/2019/index.html" />
+        <link rel="canonical" href="http://yoursite.com/2020/01/14/%E6%9C%89%E6%95%88%E7%9A%84%E5%BE%AE%E6%9C%8D%E5%8A%A1%EF%BC%9A10%20%E4%B8%AA%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "http://yoursite.com/2020/01/14/%E6%9C%89%E6%95%88%E7%9A%84%E5%BE%AE%E6%9C%8D%E5%8A%A1%EF%BC%9A10%20%E4%B8%AA%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/index.html",
+    "headline": "有效的微服务：10 个最佳实践",
+    "datePublished": "Tue Jan 14 2020 17:20:47 GMT+0800",
+    "dateModified": "Tue Jan 14 2020 17:22:36 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "Kerv1n",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.png"
+        },
+        "description": "Hi, nice to meet you"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Kerv1n",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": "",
+    "description": "",
+}
+</script>
 
 
     
@@ -287,93 +320,251 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#有效的微服务：10-个最佳实践"><span class="post-toc-number">1.</span> <span class="post-toc-text">有效的微服务：10 个最佳实践</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#1-领域驱动设计"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">1. 领域驱动设计</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#2-每个微服务一个数据库"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">2. 每个微服务一个数据库</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#3-微前端"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">3. 微前端</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#4-持续交付"><span class="post-toc-number">1.4.</span> <span class="post-toc-text">4. 持续交付</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#5-可观察性"><span class="post-toc-number">1.5.</span> <span class="post-toc-text">5. 可观察性</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#6-统一技术栈"><span class="post-toc-number">1.6.</span> <span class="post-toc-text">6. 统一技术栈</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#7-异步通信"><span class="post-toc-number">1.7.</span> <span class="post-toc-text">7. 异步通信</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#8-微服务优先"><span class="post-toc-number">1.8.</span> <span class="post-toc-text">8. 微服务优先</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#9-基础设施优于类库"><span class="post-toc-number">1.9.</span> <span class="post-toc-text">9. 基础设施优于类库</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#10-组织考虑"><span class="post-toc-number">1.10.</span> <span class="post-toc-text">10. 组织考虑</span></a></li></ol></li></ol>
+    </ul>
     
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2019/12/09/hello-world/">Hello World</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            Welcome to Hexo
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2019/12/09/hello-world/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="Kerv1n's avatar">
-            </div>
-            <div>
-                <strong>Kerv1n</strong>
-                <span>12月 09, 2019</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-
-    
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                有效的微服务：10 个最佳实践
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Kerv1n</strong>
+        <span>1月 14, 2020</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+
+    <!-- Share Twitter -->
+    
+
+    <!-- Share Facebook -->
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Kerv1n&title=有效的微服务：10 个最佳实践&summary=&pics=http://yoursite.com/img/favicon.png&url=http://yoursite.com/2020/01/14/%E6%9C%89%E6%95%88%E7%9A%84%E5%BE%AE%E6%9C%8D%E5%8A%A1%EF%BC%9A10%20%E4%B8%AA%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
     
 </div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <h1 id="有效的微服务：10-个最佳实践"><a href="#有效的微服务：10-个最佳实践" class="headerlink" title="有效的微服务：10 个最佳实践"></a>有效的微服务：10 个最佳实践</h1><p>转载自：</p>
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzA4Nzc4MjI4MQ==&amp;mid=2652403392&amp;idx=1&amp;sn=9c0d6115dce1264222841e36317f2a0d" target="_blank" rel="noopener">https://mp.weixin.qq.com/s?__biz=MzA4Nzc4MjI4MQ==&amp;mid=2652403392&amp;idx=1&amp;sn=9c0d6115dce1264222841e36317f2a0d</a></p>
+<h2 id="1-领域驱动设计"><a href="#1-领域驱动设计" class="headerlink" title="1. 领域驱动设计"></a>1. 领域驱动设计</h2><p>微服务开发的首要挑战：</p>
+<p>把大的、复杂的应用拆分为小的、自治的、可独立部署的模块。</p>
+<p>如果没有正确的拆分，那么结果就是一堆浆糊，有着单体结构的缺点，和微服务结构的复杂度，可以称之为<strong>分布式单体</strong>。</p>
+<p>幸运的是，Eric Evans 为领域驱动设计提出了大量的最佳实践和经验技巧，有3个核心思维：</p>
+<ul>
+<li>开发团队要和业务部门、业务领域专家紧密合作。</li>
+<li>架构师、开发人员、领域专家应该先做出战略设计：找出边界上下文、核心域、子域、上下文映射关系。</li>
+<li>架构师、开发人员根据战略设计梳理出一套核心构造块：实体、值对象、聚合等等。</li>
+</ul>
+<p>把一个大型系统划分为核心域、子域，再把核心域、子域映射为微服务，这样我们就可以得到一个理想的松耦合微服务体系。</p>
+<h2 id="2-每个微服务一个数据库"><a href="#2-每个微服务一个数据库" class="headerlink" title="2. 每个微服务一个数据库"></a>2. 每个微服务一个数据库</h2><p>微服务模块结构设计好了，下面一个重要问题就是怎么处理数据库，各个微服务是否共享数据库呢？</p>
+<p>如果共享，将导致微服务之间紧耦合，违背了微服务的松耦合原则。数据库中一个小小的变动就需要各个团队同步修改。</p>
+<p>如果每个微服务都有自己的数据库，那么微服务之间的数据交换将非常麻烦，就像打开了潘多拉魔盒，跑出一堆问题，例如在多个服务中管理事务。</p>
+<p>所以，很多人主张共享数据库。</p>
+<p>但是，微服务是持续的、长期的软件开发，每个微服务应该有其自己的数据库。</p>
+<h2 id="3-微前端"><a href="#3-微前端" class="headerlink" title="3. 微前端"></a>3. 微前端</h2><p>很多后端开发者轻视前端，认为太简单。</p>
+<p>大多数架构师也是后端出来的，在架构设计中对前端不够重视。</p>
+<p>导致现状就是，后端模块化做的很好，而前端还是一整坨。</p>
+<p>前端单体结构和后端单体有一样的问题，所以前端也需要进行现代化的改造。</p>
+<p>现在的 web 技术简单、强大，例如 web 组件、Angular/React。</p>
+<h2 id="4-持续交付"><a href="#4-持续交付" class="headerlink" title="4. 持续交付"></a>4. 持续交付</h2><p>每个微服务可以独立部署，是微服务架构的核心优势之一。</p>
+<p>比如你的系统包含 100 个微服务，现在有一个需要更新，那么你可以只需要发布这一个，而另外 99 个不需要动。</p>
+<p>这就需要 CI/CD 和 DevOps，如果没有这套自动化流程的话，就像拉着手刹开法拉利。</p>
+<h2 id="5-可观察性"><a href="#5-可观察性" class="headerlink" title="5. 可观察性"></a>5. 可观察性</h2><p>微服务架构简化了开发，但复杂了运维。</p>
+<p>单体结构是非常便于监控的，但在微服务架构中，服务很多，而且通常是跑在容器中，对整个系统的监控就变得非常复杂。</p>
+<p>需要把所有容器、机器中的日志聚合到一起。</p>
+<p>幸运的是已经有成熟的解决方案，例如，使用 <strong>ELK/Splunk</strong> 处理日志，使用 <strong>Prometheus/App Dynamics</strong> 处理监控。</p>
+<p>还有一个比较重要的方面：调用跟踪。</p>
+<p>微服务间会产生级联调用，为了分析系统延迟，就需要测量每个服务的延迟，<strong>Zipkin/Jaeger</strong> 提供了这个能力。</p>
+<h2 id="6-统一技术栈"><a href="#6-统一技术栈" class="headerlink" title="6. 统一技术栈"></a>6. 统一技术栈</h2><p>微服务体系中，不同服务有不同的特性，例如有的服务是 CPU 密集型操作，使用 C++/Rust 比较合适；有的服务是做机器学习的，使用 Python 比较合适。</p>
+<p>所以，可以使用不同的技术处理相应的需求，但是，一定要注意合理性，不要毫无根据的混合使用不同的技术。</p>
+<p>想象一下，在一套系统中，有的微服务使用 Spring Boot + Kotlin+ React + MySQL，有的使用 JakartaEE + Java + Angular + PostgreSQL，有的使用 Scala + Play Framework + VueJS + Oracle。</p>
+<p>这会不会让人很崩溃，太难维护了。</p>
+<h2 id="7-异步通信"><a href="#7-异步通信" class="headerlink" title="7. 异步通信"></a>7. 异步通信</h2><p>服务间的通信问题是微服务架构的重要挑战，比是否共享数据库那个问题还麻烦。</p>
+<p>为了实现业务需求，需要多个微服务的协同工作，服务间需要进行数据交换，一个服务需要触发其他服务。</p>
+<p>最简单的就是通过 REST 接口直接调用，但这种同步调用方式问题比较大。</p>
+<p>例如 A -&gt; B -&gt; C -&gt; D，这种多级调用主要的3个问题：</p>
+<ul>
+<li>增加了系统延迟。</li>
+<li>每个服务可能会故障，这就产生了级联性的错误。</li>
+<li>服务间紧耦合。</li>
+</ul>
+<p>最好是使用异步通信的方式，例如通过消息队列（如 kafka）、异步的 REST（ATOM）、CQRS。</p>
+<h2 id="8-微服务优先"><a href="#8-微服务优先" class="headerlink" title="8. 微服务优先"></a>8. 微服务优先</h2><p>很多人认为新项目应该使用单体结构，这样起步快，比微服务简单，当发展大了之后再改造为微服务。</p>
+<p>然而，这个改造是非常困难的，因为单体中模块的耦合度太高了。</p>
+<p>而且产品成熟后，对在线可用性要求很高，那个时候再改造的话，一定会中断产品运行。</p>
+<h2 id="9-基础设施优于类库"><a href="#9-基础设施优于类库" class="headerlink" title="9. 基础设施优于类库"></a>9. 基础设施优于类库</h2><p>Netflix 早期开发微服务时，主要使用 java 来开发，Netflix 开发出了很多优秀的库，如 <strong>Hystrix, Zuul</strong>，很多公司都使用他们。</p>
+<p>后来，包括 Netflix 在内的很多公司都发现 java 其实并不擅长微服务开发，例如 java 体积过于庞大。</p>
+<p>Netflix 转向了 Polyglot，并停止了之前那些库的维护，这就让很多公司被动了。</p>
+<p>所以，不要过度依赖特定语言的类库，可以使用更底层的基础框架，例如 <strong>Service Meshes</strong>。</p>
+<h2 id="10-组织考虑"><a href="#10-组织考虑" class="headerlink" title="10. 组织考虑"></a>10. 组织考虑</h2><p>50 年前，Melvin Conway 发现公司的软件架构受限于其组织结构。</p>
+<p>其实在现在，这个观点依然正确。</p>
+<p>如果一个组织想使用微服务架构，那么就应该调整好团队的大小。</p>
+<p>两个披萨饼原则：如果两个披萨不足以喂饱一个项目团队，那么这个团队可能就显得太大了。</p>
+<p>而且，团队成员应该是多元化的，有前端、后端、测试、运维。</p>
+<p>只有高层领导者转变思维方式，微服务架构才有可能发挥作用。</p>
+<p>翻译整理自：</p>
+<p><a href="https://towardsdatascience.com/effective-microservices-10-best-practices-c6e4ba0c6ee20" target="_blank" rel="noopener">https://towardsdatascience.com/effective-microservices-10-best-practices-c6e4ba0c6ee20</a></p>
+
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2019/12/09/hello-world/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
